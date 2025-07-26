@@ -7,4 +7,5 @@ config/*.json
 config/facs/*.json
 logs
 store/
+.eslintrc
 
