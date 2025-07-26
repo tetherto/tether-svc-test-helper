@@ -30,7 +30,7 @@ const createClient = require('../lib/client')
     console.log('Response from Tether service:', response)
 
     // Step 4: Clean up in the proper order
-    await client.stop()
+    await client.disconnect()
     await worker.stop()
     console.log('== Example completed successfully ==')
   } catch (error) {
