@@ -1,6 +1,6 @@
 {
   "name": "tether-svc-test-helper",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "Library for testing Tether services",
   "main": "index.js",
   "scripts": {
@@ -13,27 +13,27 @@
     "url": "git+https://github.com/tetherto/tether-svc-test-helper"
   },
   "keywords": [
-      "tether",
-      "test",
-      "helper",
-      "service"
+    "tether",
+    "test",
+    "helper",
+    "service"
   ],
   "author": {
-      "name": "prdn",
-      "email": "paolo@tether.to"
+    "name": "prdn",
+    "email": "paolo@tether.to"
   },
   "maintainers": [
-      {
-          "name": "prdn",
-          "email": "paolo@tether.to"
-      },
-      {
-          "name": "vigan.abd",
-          "email": "vigan.abdurrahmani@tether.to"
-      }
+    {
+      "name": "prdn",
+      "email": "paolo@tether.to"
+    },
+    {
+      "name": "vigan.abd",
+      "email": "vigan.abdurrahmani@tether.to"
+    }
   ],
   "engines": {
-      "node": ">=16"
+    "node": ">=16"
   },
   "license": "Apache-2.0",
   "devDependencies": {

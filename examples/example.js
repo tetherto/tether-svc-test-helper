@@ -19,7 +19,7 @@ const createClient = require('../lib/client')
 
     // Step 2: Create and connect a client
     const client = createClient(worker)
-    await client.connect()
+    await client.start()
 
     // Step 3: Make an RPC call to the worker
     const method = 'ping' // Use a method that the worker actually implements
@@ -30,7 +30,7 @@ const createClient = require('../lib/client')
     console.log('Response from Tether service:', response)
 
     // Step 4: Clean up in the proper order
-    await client.disconnect()
+    await client.stop()
     await worker.stop()
     console.log('== Example completed successfully ==')
   } catch (error) {
