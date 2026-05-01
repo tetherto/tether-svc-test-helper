@@ -1,5 +1,5 @@
 {
-  "name": "tether-svc-test-helper",
+  "name": "@tetherto/tether-svc-test-helper",
   "version": "1.0.0",
   "description": "Library for testing Tether services",
   "main": "index.js",
@@ -38,11 +38,10 @@
   "license": "Apache-2.0",
   "devDependencies": {
     "node-fetch": "^2.6.9",
-    "standard": "^17.0.0"
+    "standard": "^17.1.2"
   },
   "dependencies": {
-    "async": "3.2.6",
-    "bfx-svc-boot-js": "git+https://github.com/bitfinexcom/bfx-svc-boot-js.git",
-    "raw-body": "2.5.2"
+    "@bitfinex/bfx-svc-boot-js": "^1.2.0",
+    "async": "^3.2.6"
   }
 }
