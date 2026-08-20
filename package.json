@@ -43,5 +43,9 @@
   "dependencies": {
     "@bitfinex/bfx-svc-boot-js": "^1.2.0",
     "async": "^3.2.6"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   }
 }
